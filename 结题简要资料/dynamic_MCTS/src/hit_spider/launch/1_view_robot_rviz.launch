@@ -1,0 +1,12 @@
+<launch>
+	<!-- 显示机器人模型 -->
+	<param name="robot_description" command="$(find xacro)/xacro $(find hit_spider)/model/xacro/EISpider.xacro" />
+	
+	<!-- <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher" output="screen" /> -->
+	<node pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" name="joint_state_publisher_gui" />
+
+	<node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" output="screen" />
+
+	<node pkg="rviz" type="rviz" name="rviz" args="-d $(find hit_spider)/config/1_view_robot.rviz" output="screen" />
+
+</launch>

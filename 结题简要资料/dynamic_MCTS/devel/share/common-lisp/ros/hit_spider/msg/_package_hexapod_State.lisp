@@ -1,0 +1,22 @@
+(cl:in-package hit_spider-msg)
+(cl:export '(BASE_POSE_NOW-VAL
+          BASE_POSE_NOW
+          SUPPORT_STATE_NOW-VAL
+          SUPPORT_STATE_NOW
+          FAULTLEG_STATE_NOW-VAL
+          FAULTLEG_STATE_NOW
+          FEETPOSITIONNOW-VAL
+          FEETPOSITIONNOW
+          BASE_POSE_NEXT-VAL
+          BASE_POSE_NEXT
+          SUPPORT_STATE_NEXT-VAL
+          SUPPORT_STATE_NEXT
+          FAULTLEG_STATE_NEXT-VAL
+          FAULTLEG_STATE_NEXT
+          FEETPOSITIONNEXT-VAL
+          FEETPOSITIONNEXT
+          MOVE_DIRECTION-VAL
+          MOVE_DIRECTION
+          REMARKS-VAL
+          REMARKS
+))

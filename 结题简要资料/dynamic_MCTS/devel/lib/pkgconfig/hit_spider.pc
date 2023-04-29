@@ -1,0 +1,8 @@
+prefix=/home/ptw/__BiYeSheJi/dynamic_MCTS/devel
+
+Name: hit_spider
+Description: Description of hit_spider
+Version: 0.0.0
+Cflags: -I/home/ptw/__BiYeSheJi/dynamic_MCTS/devel/include -I/home/ptw/__BiYeSheJi/dynamic_MCTS/src/hit_spider/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib 
+Requires: message_runtime

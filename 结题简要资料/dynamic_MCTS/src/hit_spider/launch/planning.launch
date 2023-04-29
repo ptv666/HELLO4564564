@@ -1,0 +1,5 @@
+<launch>
+    <!-- MCTS规划程序 -->
+    <node pkg="hit_spider" type="main" name="main_node" output="screen" />
+
+</launch>

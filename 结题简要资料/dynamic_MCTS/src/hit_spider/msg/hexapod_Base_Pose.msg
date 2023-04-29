@@ -1,0 +1,2 @@
+geometry_msgs/Point position
+hit_spider/hexapod_RPY orientation
